@@ -1,0 +1,123 @@
+.brain_img{
+    float: right;
+}
+.why_content{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+text-align: left;
+color: #000000;
+}
+.why_us{
+    font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+line-height: 88px;
+text-align: left;
+color:#000000 ;
+}
+.head_two{
+    font-family: Inter;
+font-size: 46px;
+font-weight: 700;
+line-height: 88px;
+text-align: left;
+color: #B42BD1;
+}
+.title{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+color: #000000;
+padding-right: 3px;
+
+}
+.title_cont{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: #000000;
+}
+.img_arrow{
+    padding-right: 11px;
+}
+
+.why_btn{
+   
+padding: 13px 26.66px 15.42px 27px;
+gap: 0px;
+border-radius: 30px;
+
+transition: background-position 0.5s;
+background: linear-gradient(90deg, #230fbf 50%, #b42bd1 100%);
+background-size: 200% 100%;
+background-position: -100% 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+.why_btn:hover {
+    background-position: 50% 100%;
+   
+  }
+  
+@media screen and (max-width:1399px) {
+    .head_two{
+        font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: #B42BD1;
+    }  
+    .why_us{
+        font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color:#000000 ;
+    }
+}
+@media screen and (max-width:768px) {
+    .why_content{
+        font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    color: #000000;
+    }
+    .why_us{
+        font-family: Inter;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color:#000000 ;
+    }
+    .head_two{
+        font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: #B42BD1;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .brain_img{
+        float: left;
+        width: 100%;
+    }
+}

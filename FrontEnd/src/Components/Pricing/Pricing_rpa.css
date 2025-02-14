@@ -1,0 +1,218 @@
+.pricing_main {
+  /* background: url("../../Assets/Pricing/background.svg"); */
+  background: linear-gradient(180deg, #f7f4fd 0%, #e1e3fc 100%);
+}
+.pricing_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.pricing_boxp {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 397px;
+  height: 589px;
+
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+
+}
+.list-item {
+  list-style-type: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #4c4c4c;
+}
+
+.list-item::before {
+  content: "-";
+}
+.list_ul {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.contact_pricing {
+  width: 144.06px;
+  height: 49.42px;
+  top: 3648px;
+  left: 452px;
+  padding: 14px 26.66px 14.42px 27px;
+  gap: 0px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+
+  background: linear-gradient(90deg, #230fbf 0%, #b42bd1 100%);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: center;
+  color: #ffffff;
+}
+.free_pmonth {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #230fbf;
+}
+.free_registration {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #4c4c4c;
+}
+.robot_service {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #b42bd1;
+}
+.two_pricing_btn {
+  width: 92px;
+  height: 100%;
+  top: 3px;
+  left: 3px;
+  gap: 0px;
+  border-radius: 30px;
+
+  border: 1px solid transparent;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+.price_btn_wrap {
+  width: 186px;
+  height: 46px;
+  top: 3050px;
+  left: 867px;
+  gap: 0px;
+  border-radius: 30px;
+  border: 1px 0px 0px 0px;
+ 
+  border: 1px solid #225b78;
+}
+.price_btn_main {
+  text-align: -webkit-center;
+}
+.choose_best_pack {
+  font-family: Inter;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5%;
+}
+.line {
+  display: inline-flex;
+  margin-left: 5px;
+
+  animation: fadeIn 0.7s infinite;
+}
+.line_css {
+  position: relative;
+  top: 3px;
+  left: 15px;
+}
+.studies_main {
+  /* background: url("../../Assets/Studies//study_back.svg"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url("../../Assets/Studies/study_backk.png"); */
+  width: 100%;
+  background: linear-gradient(180deg, #f7f4fd 0%, #e1e3fc 100%);
+}
+.pricing_back {
+  background: #ffffff;
+  width: 190.45px;
+  height: 40px;
+  top: 2885px;
+  left: 865px;
+  padding: 12px 20px 13px 20px;
+  gap: 0px;
+  border-radius: 40px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #222222;
+}
+.main_pricing {
+  text-align: -webkit-center;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media (max-width: 768px) {
+  .pricing_boxp {
+    flex: 1 1 45%;
+  }
+
+  .robot_service {
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #b42bd1;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing_boxp {
+    flex: 1 1 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .robot_service {
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #b42bd1;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .robot_service {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #b42bd1;
+  }
+  .pricing_boxp {
+    height: 100%;
+  }
+}

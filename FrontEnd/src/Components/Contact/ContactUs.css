@@ -1,0 +1,147 @@
+.contact_back {
+  background: url("../../Assets/ContactUs/back.svg");
+  width: 100%;
+  height: 187px;
+  top: 167px;
+  gap: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_head {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  color: #ffffff;
+}
+.contact_info_back {
+  background: url("../../Assets/ContactUs/contact_info_back.svg");
+  width: 100%;
+  height: 100%;
+  top: 354px;
+  gap: 0px;
+
+}
+.contact_bac {
+  background: #ffffff;
+  width: 190.45px;
+  height: 40px;
+  top: 2885px;
+  left: 865px;
+  padding: 10px 20px 13px 20px;
+  gap: 0px;
+  border-radius: 40px;
+ 
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #222222;
+}
+
+.line_contact {
+  display: inline-flex;
+  /* margin-left: 5px; */
+
+  animation: fadeIn 0.7s infinite;
+}
+.line_css_contact {
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+
+.head_content {
+  font-family: Inter;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 89px;
+  text-align: left;
+  color: #000000;
+}
+
+.contact_box {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  flex: 1;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  height: 313px;
+  padding: 15px 30px 30px 30px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+
+
+  margin-right: 10px; /* adjust the gap between boxes */
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+.box_head {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  color: #000000;
+}
+.box_content {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+}
+.ul_style {
+  list-style-type: disc;
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the header stays on top of other content */
+  background-color: white; /* Change this to match your header background color */
+}
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 130px;
+  right: 30px;
+  background-color: #f90;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+.scroll-to-top-button:hover {
+  background-color: rgb(219, 132, 1);
+}
+@media (max-width: 768px) {
+  .contact_box {
+    flex-direction: column; /* Stack boxes vertically */
+    align-items: center; /* Center boxes horizontally */
+    gap: 21px;
+  }
+
+  .box {
+    width: 100%; /* Full width on smaller screens */
+    margin-right: 0; /* No margin between boxes */
+  }
+  .head_content {
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #000000;
+  }
+}

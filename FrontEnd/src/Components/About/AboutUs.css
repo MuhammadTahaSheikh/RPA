@@ -1,0 +1,245 @@
+.team-members {
+  display: flex;
+  gap: 25px;
+}
+.volks_back{
+  background: url("../../Assets/About/volks.svg");
+  height: 100%;
+}
+.volk_p{
+font-size: 16px;
+font-weight: 400;
+
+text-align: justified;
+color: #000000;
+}
+.volk_block{
+
+height: 598px;
+border-radius: 5px 0px 0px 0px;
+
+background: #FFFFFF;
+
+}
+.volk_block_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust this to fit your needs */
+}
+.volk_block_content{
+  color: #000000;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: justified;
+padding: 20px;
+}
+.volk_block_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.about_bac {
+  background: #F3F3F3;
+  width: 190.45px;
+  height: 40px;
+  top: 2885px;
+  left: 865px;
+  padding: 10px 70px 13px 20px;
+  gap: 0px;
+  border-radius: 40px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #222222;
+}
+.line_about {
+  display: inline-flex;
+  /* margin-left: 5px; */
+
+  animation: fadeIn 0.7s infinite;
+}
+
+
+.line_css_about {
+  position: relative;
+  top: 2px;
+  left: 55px;
+}
+.today_climate{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: justified;
+color: #000000;
+}
+.our_values{
+  background: linear-gradient(180deg, #F7F4FD 0%, #E1E3FC 100%);
+
+}
+.card_content{
+  color: #000000;
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+
+}
+.card_title{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28.8px;
+text-align: left;
+color: #230FBF;
+}
+.unleash_business{
+  font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: #000000;
+}
+.unleash_business_clr{
+  color: #AC29D0;
+}
+.card_img{
+  width: 218.78px;
+height: 218.59px;
+
+
+}
+/* CardGrid.css */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px; /* Adjust the gap between cards as needed */
+  padding: 16px 0px 16px 0px; /* Add padding if desired */
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.about_box_back {
+  background: #ffffff;
+  width: 190.45px;
+  height: 40px;
+  top: 2885px;
+  left: 865px;
+  padding: 12px 20px 13px 20px;
+  gap: 0px;
+  border-radius: 40px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: #222222;
+}
+.main_studies {
+  text-align: -webkit-center;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.answer_need{
+  font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: #FFFFFF;
+}
+.line {
+  display: inline-flex;
+  margin-left: 5px;
+
+  animation: fadeIn 0.7s infinite;
+}
+.line_css_values {
+  position: relative;
+  top: 3px;
+  left: 50px;
+}
+
+.about_costumer_back {
+  background: linear-gradient(90deg, #230fbf 0%, #b42bd1 100%);
+  width: 190.45px;
+  height: 40px;
+  top: 2885px;
+  left: 865px;
+  padding: 12px 20px 13px 20px;
+  gap: 0px;
+  border-radius: 40px;
+margin-top: 5%;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.line_customer {
+  display: inline-flex;
+  margin-left: 5px;
+
+  animation: fadeIn 0.7s infinite;
+}
+.line_css_customer {
+  position: relative;
+  top: 2px;
+  left: 25px;
+}
+@media screen and (max-width:450px) {
+  .team-members {
+    gap: 5px;
+  }
+  .unleash_business {
+ 
+    font-size: 30px;
+  line-height: 40px;
+}
+.volk_block {
+  height: 88%;
+
+}
+}
+@media screen and (max-width:768px) {
+  .img_col{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1024px) {
+  .volk_p{
+    line-height: 25px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .last_volk{
+    padding-bottom: 320px;
+  }
+}

@@ -1,0 +1,135 @@
+.services-containerabout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.service_data {
+  transform: translateY(-30%);
+}
+
+.service_about {
+  flex: 0 1 calc(33.333% - 20px); 
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 10px 0px #00000026;
+  border-radius: 10px 0px 0px 0px;
+ 
+  width: 280px;
+  /* height: 386px; */
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+
+  background-color: #ffffff;
+}
+.service_about:hover {
+  opacity: 1;
+}
+
+.service_about img {
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.service-content {
+  padding: 10px;
+}
+.service_about:hover {
+  box-shadow: 5px 20px 20px 20px rgba(0, 0, 0, 0.1);
+  transform: scale(1.01);
+  z-index: 1; 
+}
+.service-button_about {
+  color: #230fbf;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27.2px;
+  text-align: left;
+}
+.read_btn {
+  text-align: left;
+}
+.contact_ushref1:hover {
+  color: red;
+}
+.service_content {
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 10px;
+}
+.service_heading {
+  color: #000000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.dedicated_services {
+  color: #00235a;
+  font-family: Radio Canada;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+}
+.dedicated_services_content {
+  color: #00235a;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.service_image {
+  text-align: left;
+  padding-bottom: 15px;
+}
+@media (max-width: 1000px) {
+  .service_about {
+    flex: 0 1 calc(33.333% - 20px);
+    width: 220px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .service_about {
+    flex: 0 1 calc(50% - 20px);
+    width: calc(50% - 20px);
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .service_about {
+    flex: 0 1 100%;
+    width: 100%;
+    height: auto;
+  }
+  .service_data {
+    transform: translateY(-6%) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service_data {
+    transform: translateY(-10%);
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .service_data {
+    transform: translateY(-20%);
+  }
+}

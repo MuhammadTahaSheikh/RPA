@@ -1,0 +1,26 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top of other content */
+    background-color: white; /* Change this to match your header background color */
+  }
+  
+  .content {
+    /* Add padding to the top to prevent content from being hidden behind the sticky header */
+    padding-top: 100px; /* Adjust this value based on your header's height */
+  }
+  .scroll-to-top-button {
+    position: fixed;
+    bottom: 130px;
+    right: 30px;
+    background-color: #f90;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  .scroll-to-top-button:hover {
+    background-color: rgb(219, 132, 1);
+  }

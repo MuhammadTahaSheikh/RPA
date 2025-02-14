@@ -1,0 +1,79 @@
+.main_count{
+    background: url("../../Assets//Header/count_back.svg");
+    width: 100%;
+height: 222px;
+top: 1776px;
+gap: 0px;
+
+/* background: linear-gradient(360deg, #230FBF 100%, #B42BD1 0%); */
+display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;  */
+
+}
+.div_count{
+    border-right: 2px solid #FFFFFF80; 
+padding-right: 5%;
+}
+.digit_content{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 27.2px;
+letter-spacing: 0.5px;
+text-align: center;
+color:#FFFFFF ;
+}
+.digit_count{
+    font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+}
+.digit_countal{
+    font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+color:#AC29D0 ;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around; /* To evenly distribute the counters */
+    align-items: center; /* Center horizontally */
+    width: 80%; /* Adjust as needed */
+  }
+@media screen and (max-width:768px) {
+    .digit_content{
+        font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 21.2px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color:#FFFFFF ;
+    }
+    .digit_count{
+        font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .digit_countal{
+        font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color:#AC29D0 ;
+    }
+    
+}
+  
